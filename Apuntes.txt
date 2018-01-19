@@ -1,0 +1,3 @@
+TIPS
+* Las funciones en el lenguaje javascript siempre se cargan primero en memoria y luego se ejecuta todo el codigo fuera de las funciones por eso no es muy importante el orden de las funciones
+* cuando llamamos una funcion y no le ponemos los parentesis simplemente estamos referenciando dicha funcion en lugar de si llamamos dicha funcion con parentesis es por que queremos ejecutar dicha funcion

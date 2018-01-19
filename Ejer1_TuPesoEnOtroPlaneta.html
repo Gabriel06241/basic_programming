@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tu Peso en lugar donde pesas menos</title>
+  </head>
+  <body>
+    <h1>Tu peso en otro planeta</h1>
+    <p>En la tierra pesas diferente con relacion a otro Planeta, esto debido a la fuerza gravitatoria de cada Planeta.</p>
+    <script>
+      var g_earth = 9.8
+      var g_mars = 3.7;
+      var g_jupiter = 24.8;
+      var weight = prompt("What´s you weight?");
+      var final_weight;
+      final_weight = parseInt(weight * g_mars / g_earth);
+      document.write("Your weight in Mars is " + final_weight);
+      alert("Your weight in Mars is " + final_weight);
+      var ruta = window.location;
+      console.log(console);
+    </script>
+  </body>
+</html>
